@@ -19,12 +19,12 @@ void execiterations(void);
 void listcanditlayers(void);
 int complayerlist(const void *i, const void *j);
 int packlayer(void);
-int findlayer( short int thickness);
+int findlayer(short int thickness);
 void findbox(short int hmx, short int hy, short int hmy, short int hz, short int hmz);
 void analyzebox (short int hmx, short int hy, short int hmy, short int hz, short int hmz, short int dim1, short int dim2, short int dim3);
 void findsmallestz(void);
 void checkfound(void);
-void volumecheck (void);
+void volumecheck(void);
 void graphunpackedout(void);
 void outputboxlist(void);
 void report(void);
@@ -171,7 +171,7 @@ void initialize(void)
   packingbest = 0;
   hundredpercent = 0;
   itenum = 0;
-  quit=0;
+  quit = 0;
 }
          
          
@@ -365,7 +365,7 @@ void listcanditlayers(void)
           break;
       }
       if ((exdim > py) || (((dimen2 > px) || (dimen3 > pz)) && ((dimen3 > px) || (dimen2 > pz)))) continue;
-      same=0;
+      same = 0;
       
       for (k = 1; k <= layerlistlen; k++)
       {
@@ -376,7 +376,7 @@ void listcanditlayers(void)
         }
       }
       if (same) continue;
-      layereval=0;
+      layereval = 0;
       for (z = 1; z <= tbn; z++)
       {
         if(!(x == z))
@@ -414,12 +414,13 @@ int complayerlist(const void *i, const void *j)
 // RECORDS PROPERLY
 //**********************************************************************
 
-int packlayer(void){
+int packlayer(void)
+{
   short int lenx, lenz, lpz;
   
   if (!layerthickness) 
   { 
-    packing=0;
+    packing = 0;
     return 0;
   } 
   
@@ -955,7 +956,7 @@ void checkfound(void)
       cboxi = bboxi;
       cboxx = bboxx;
       cboxy = bboxy;
-      cboxz =bboxz;
+      cboxz = bboxz;
       layerinlayer = layerinlayer + bboxy - layerthickness;
       layerthickness = bboxy;
     }
