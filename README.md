@@ -16,8 +16,6 @@ It took me about 2 days to get the main bin packing code to a point where it wou
 
 Much to Microsoft and Borland's credit, by the way, is the fact that Turbo C would still run and fully function on Windows 7.
 
-There is much that could be done with this code.  There are aspects of it that I find to be clever and original.  My current plan is to fork it ( I want to leave this repo as it is for posterity), then begin the process of making it more portable and adherent with modern programming practices.  I'd also like to make it more generically applicable - for example to packing packages inside boxes, and have multiple boxes available for choosing, instead of just boxes on a fixed pallet.
+There is much that could be done with this code.  There are aspects of it that I find to be clever and original.  My current plan is to [fork it](https://github.com/exad/boxologic) (I want to leave this repo as it is for posterity), then begin the process of making it more portable and adherent with modern programming practices.  I'd also like to make it more generically applicable - for example to packing packages inside boxes, and have multiple boxes available for choosing, instead of just boxes on a fixed pallet.
 
 Enjoy!
-
-The following line is intentionally blank.
