@@ -976,7 +976,7 @@ void checkfound(void)
           (*smallestz).pos = (*((*smallestz).pos)).pos;
           if ((*smallestz).pos)
           {
-            smallestz=(*scrapmemb).pos;
+            (*((*smallestz).pos)).pre = smallestz;
           }
           free(trash);
         }
