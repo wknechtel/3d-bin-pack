@@ -3,6 +3,8 @@
 
 A set of C programs that calculate the best fit for boxes on a pallet, and visualize the result.  
 
+PLEASE NOTE: This code has begun its journey towards modernity. Check out its more portable and easier-to-read version, called [boxologic](https://github.com/exad/boxologic).  This is where all future development will occur, as this particular repo is left here as an archive, for posterity.
+
 History and Future
 ------------------
 
