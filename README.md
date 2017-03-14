@@ -20,6 +20,11 @@ Much to Microsoft and Borland's credit, by the way, is the fact that Turbo C wou
 
 There is much that could be done with this code.  There are aspects of it that I find to be clever and original.  My current plan is to [fork it](https://github.com/thebitpusher/boxologic) (I want to leave this repo as it is for posterity), then begin the process of making it more portable and adherent with modern programming practices.  I'd also like to make it more generically applicable - for example to packing packages inside boxes, and have multiple boxes available for choosing, instead of just boxes on a fixed pallet.
 
-I am grateful to Mr. Baltacıoğlu for choosing to tackle a difficult but widely-applicable problem to conduct his master's research on; to the US Air Force, the Air Force Intitute of Technology, the Turkish Air Force, and whatever program was in place that allowed Mr. Baltacıoğlu to carry out his postgraduate degree program with the Air Force Institute of Technology.  This code base has seen more activity than I ever expected, and I'm genuinely pleased to see it enduring.
-
 Enjoy!
+
+Thanks
+------
+
+I am grateful to Mr. Ehran Baltacıoğlu for choosing to tackle a difficult but widely-applicable problem to conduct his master's research on; to the US Air Force, the Air Force Intitute of Technology, the Turkish Air Force, and whatever program was in place that allowed Mr. Baltacıoğlu to carry out his postgraduate degree program with the Air Force Institute of Technology.  This code base has seen more activity than I ever expected, and I'm genuinely pleased to see it enduring.
+
+I would also like to thank Raymond R. Hill, PhD, Lt Col (USAF, Ret) - the original thesis reader and one of two gentlemen that helped guide Mr. Baltacıoğlu as he performed his research - for pointing me towards the academic publication of Mr. Baltacıoğlu's work. You can check your local university or municipal library for the full text of [The distributor's three-dimensional pallet-packing problem: a human intelligence-based heuristic approach](http://www.inderscience.com/dev/search/index.php?mainAction=search&action=record&rec_id=9300&prevQuery=&ps=10&m=or).
