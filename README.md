@@ -3,7 +3,10 @@
 
 A set of C programs that calculate the best fit for boxes on a pallet, and visualize the result.
 
-PLEASE NOTE: This code has begun its journey towards modernity. Check out its more portable and easier-to-read version, called [boxologic](https://github.com/thebitpusher/boxologic).  This is where all future development will occur, as this particular repo is left here as an archive, for posterity.
+Reference Implementation of the EB-AFIT Pallet Loading Algorithm
+----------------------------------------------------------------
+
+The algorithm described in the thesis document (see *History and Future*, below) has been retroactively named the EB-AFIT Pallet Loading Algorithm, in honor of its author and the institution where he performed his research.  Since the code in this repository is directly transcribed from the appendices accompanying the thesis, these code files should be considered the [reference implementation](https://en.wikipedia.org/wiki/Reference_implementation) of the algorithm.
 
 History and Future
 ------------------
@@ -19,8 +22,6 @@ It took me about 2 days to get the main bin packing code to a point where it wou
 Much to Microsoft and Borland's credit, by the way, is the fact that Turbo C would still run and fully function on Windows 7.
 
 There is much that could be done with this code.  There are aspects of it that I find to be clever and original.  My current plan is to [fork it](https://github.com/thebitpusher/boxologic) (I want to leave this repo as it is for posterity), then begin the process of making it more portable and adherent with modern programming practices.  I'd also like to make it more generically applicable - for example to packing packages inside boxes, and have multiple boxes available for choosing, instead of just boxes on a fixed pallet.
-
-Enjoy!
 
 Thanks
 ------
